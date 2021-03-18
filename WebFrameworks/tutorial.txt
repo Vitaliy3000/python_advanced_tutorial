@@ -1,0 +1,17 @@
+pip install django psycopg2
+django-admin _django
+python manage.py runserver
+# python manage.py createsuperuser
+python manage.py startapp api
+python manage.py makemigrations
+python manage.py migrate
+
+
+# drf (https://www.django-rest-framework.org/)
+pip install django psycopg2 djangorestframework
+django-admin _django
+python manage.py runserver
+# python manage.py createsuperuser
+python manage.py startapp api
+python manage.py makemigrations
+python manage.py migrate
